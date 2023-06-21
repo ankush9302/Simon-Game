@@ -1,0 +1,57 @@
+@font-face {
+  font-family: "Halloween";
+  src: url(HalloweenSlimePersonalUse-4B80D.otf);
+}
+body {
+  text-align: center;
+  background-color: #002a03;
+}
+
+#level-title {
+  font-family: "Halloween", cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #f5c107;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: rgb(10, 6, 6);
+}
